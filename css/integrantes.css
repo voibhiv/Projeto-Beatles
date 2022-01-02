@@ -1,0 +1,106 @@
+/*-------------------------------------------------------ALL-CONTENTS------------------------------------------------------------------------------------->*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: 'lato', 'arial', 'sans-serif';
+    font-weight 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*-------------------------------------------------------NAVIGATION------------------------------------------------------------------------------------->*/
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+@media only screen and (min-width:1200px)  {
+    .logo{
+        margin: 0 0 0 340%;
+    }
+}
+
+.nav-link {
+    font-size: 100%;
+    font-family: "lato";
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    padding: 0 auto;
+}
+
+.nav-link:hover {
+    transition: border 0.5s;
+    border: 3px solid #fff;
+}
+
+@media only screen and (min-width:1200px)  {
+    .collapse {
+        margin-left: 60%;
+    }
+}
+
+.navbar {
+    border-bottom: 1px solid #fff;
+}
+
+/*-------------------------------------------------------Carousel------------------------------------------------------------------------------------->*/
+
+.content-img {
+    background-color: #000;
+}
+
+.d-block {
+    opacity: 0.4;
+}
+
+p {
+    font-family: "lato";
+}
+
+h2 {
+    color: #fff;
+    font-family: "lato";
+}
+
+/*-------------------------------------------------------FOOTER---------------------------------------------------------------------------->*/
+
+footer {
+    border-top: 1px solid #fff; 
+    overflow-x: hidden;
+    background-color: #222;
+    padding: 50px 0;
+}
+
+.eu {
+    position: relative;
+    height:80px;
+    width: 80px;
+}
+
+.icn-insta {
+    color:#fff;
+    font-family: "lato";
+}
+
+.icn-insta:hover {
+    color: #c64afd;
+}
+
+.fa-envelope-o {
+    color: #fff;
+}
+
+.back:hover {
+    color: #3498db;
+}

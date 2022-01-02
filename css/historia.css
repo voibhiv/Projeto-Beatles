@@ -1,0 +1,132 @@
+/*-------------------------------------------------------ALL-CONTENTS------------------------------------------------------------------------------------->*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: 'lato', 'arial', 'sans-serif';
+    font-weight 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*-------------------------------------------------------HEADER------------------------------------------------------------------------------------->*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(img/fundo-historia.jpg);
+    background-size: cover;
+    background-position: top;
+    height:100vh;
+    background-attachment: fixed;
+}
+
+/*-------------------------------------------------------NAVIGATION------------------------------------------------------------------------------------->*/
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+@media only screen and (min-width:1200px)  {
+    .logo{
+        margin: 0 0 0 340%;
+    }
+}
+
+.nav-link {
+    font-size: 100%;
+    font-family: "lato";
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    padding: 0 auto;
+}
+
+.nav-link:hover {
+    transition: border 0.5s;
+    border: 3px solid #fff;
+}
+
+@media only screen and (min-width:1200px)  {
+    .collapse {
+        margin-left: 60%;
+    }
+}
+
+/*-------------------------------------------------------TITLES AND TEXT ELEMENTS----------------------------------------------------------------------->*/
+
+h1 {
+    position: relative;
+    word-spacing: 4px;
+    text-shadow: 2.5px 1px #0d1288;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.content-div-box {
+    position: relative;
+    max-width: 1140px;
+    top: 35%;
+    margin-left: 10%;
+    left: 40%;
+    transform: translate(-45%);
+}
+
+/*-------------------------------------------------------SECTION-HISTORY------------------------------------------------------------------------->*/
+
+.section-history {
+    background-color: #fff;
+}
+
+h2 {
+    margin: 0 auto;
+    padding:30px 0;
+    color: #498eed;
+    text-shadow: 1px 1px #000;
+}
+
+.paragraph{
+    color: #000000;
+    text-align: justify;
+    border: 2px solid #3498db;
+    overflow: hidden;
+    padding:30px 20px;
+}
+
+/*-------------------------------------------------------FOOTER---------------------------------------------------------------------------->*/
+
+footer {
+    overflow-x: hidden;
+    background-color: #222;
+    padding: 50px 0;
+}
+
+.eu {
+    position: relative;
+    height:80px;
+    width: 80px;
+}
+
+.icn-insta {
+    color:#fff;
+    font-family: "lato";
+}
+
+.icn-insta:hover {
+    color: #c64afd;
+}
+
+.fa-envelope-o {
+    color: #fff;
+}
+
+.back:hover {
+    color: #3498db;
+}

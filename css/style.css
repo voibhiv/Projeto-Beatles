@@ -1,0 +1,230 @@
+/*-------------------------------------------------------ALL-CONTENTS------------------------------------------------------------------------------------->*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: 'lato', 'arial', 'sans-serif';
+    font-weight 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*-------------------------------------------------------HEADER------------------------------------------------------------------------------------->*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(img/beatlesfundo3.jpg);
+    background-size: cover;
+    background-position: top;
+    height:100vh;
+    background-attachment: fixed;
+}
+
+/*-------------------------------------------------------NAVIGATION------------------------------------------------------------------------------------->*/
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+@media only screen and (min-width:1200px)  {
+    .logo{
+        margin: 0 0 0 340%;
+    }
+}
+
+.nav-link {
+    font-size: 100%;
+    font-family: "lato";
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    padding: 0 auto;
+}
+
+.nav-link:hover {
+    transition: border 0.5s;
+    border: 3px solid #fff;
+}
+
+@media only screen and (min-width:1200px)  {
+    .collapse {
+        margin-left: 60%;
+    }
+}
+
+/*-------------------------------------------------------TITLES AND TEXT ELEMENTS----------------------------------------------------------------------->*/
+
+
+h1,h2 {
+    font-family: "lato";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+h1 {
+    position: relative;
+    font-size: 220%;
+    word-spacing: 4px;
+    text-shadow: 2.5px 1px #0d1288;
+    color:#fff;
+}
+
+h2 {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 0;
+    color: #3498db;
+    text-shadow: 0.2px 1px #000000;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    width: 150px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #3498db;
+}
+
+h3 {
+    text-align: center;
+    padding: 15px 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 110%;
+}
+
+.paragraph-about {
+    text-align: justify;
+    padding: 20px 0 20px 0;
+}
+
+.content-div-box {
+    position: relative;
+    max-width: 1140px;
+    top: 35%;
+    margin-left: 10%;
+    left: 40%;
+    transform: translate(-45%);
+}
+/*-------------------------------------------------------SECTION-ABOUT------------------------------------------------------------------------->*/
+
+.section-about {
+    padding:80px 0;
+    border-bottom: 1px solid #3498db;
+}
+
+/*-------------------------------------------------------SECTION-ALBUMS------------------------------------------------------------------------->*/
+
+
+.section-albums {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.gallery-block .heading {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0.2px 1px #000000;
+}
+
+h5 {
+    color:#3498db;
+    text-shadow: 0.2px 1px #000000;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.gallery-block.cards-gallery .card { margin-bottom: 20px; }
+
+.gallery-block.cards-gallery .card img { box-shadow: 0 2px 10px rgba(0,0,0,0.5);}
+
+.gallery-block.cards-gallery .card-body { 
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+.gallery-block.cards-gallery .card-body p { font-size: 14px; }
+
+.gallery-block.cards-gallery a { font-size: 14px; }
+
+.text-muted {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+img {
+    height: auto;
+    width: auto;
+}
+
+.icon-div {
+    position: relative;
+    text-align: center;
+}
+
+.icn {
+    color:#000;
+    margin-right: 25px;
+}
+
+.icn-spotify:hover {
+    color: #00ff1d;
+}
+
+.icn-youtube:hover {
+    color: #ff0000;
+}
+
+.col-lg-4:last-child {
+    margin: 0 auto; 
+}
+
+/*-------------------------------------------------------FOOTER---------------------------------------------------------------------------->*/
+
+footer {
+    overflow-x: hidden;
+    background-color: #222;
+    padding: 50px 0;
+}
+
+.eu {
+    position: relative;
+    height:80px;
+    width: 80px;
+}
+
+.icn-insta {
+    color:#fff;
+    font-family: "lato";
+}
+
+.icn-insta:hover {
+    color: #c64afd;
+}
+
+.fa-envelope-o {
+    color: #fff;
+}
+
+.back:hover {
+    color: #3498db;
+}
+
+
